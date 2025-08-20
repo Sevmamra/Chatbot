@@ -9,7 +9,7 @@ from openai import OpenAI  # Import the OpenAI client
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = '7664447269:AAG1KJxfh-0lCV6OjH-IWjGjW6DQZ7IueuU'  # Replace with your bot's API token
+TOKEN = '7664447269:AAE1a9wmvhSt9ya4d4zYm8vM0qD5hNp993Q'  # Replace with your bot's API token
 OWNER_ID = 6567162029  # Replace with the owner's Telegram user ID
 
 bot = telebot.TeleBot(TOKEN)
@@ -75,7 +75,7 @@ system_role = (
 # Initialize the OpenAI client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your OpenRouter API key
+    api_key="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",  # Replace with your OpenRouter API key
 )
 
 def send_message(user_message, user_id):
